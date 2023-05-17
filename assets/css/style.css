@@ -28,13 +28,15 @@ body {
   height: 200px;
   text-align: center;
   text-justify: center;
-  padding-top: 100px;
+  padding-top: 150px;
   font-size: 25px;
   font-family: "Fraunces", serif;
   border-radius: 20px;
   color: whitesmoke;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
   padding-bottom: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 .citation__author {
   font-family: "Fraunces", serif;

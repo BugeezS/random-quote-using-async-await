@@ -18,6 +18,18 @@ fetch("https://thatsthespir.it/api")
     author.classList.add("citation__author");
     section.appendChild(author);
 
+    const fetchName = (name) => fetch("https://api.agify.io/?name=" + name);
+    const name = json.author;
+    fetchName(name)
+      .then((test) => test.json())
+      .then((text) => {
+        const span = document.createElement("span");
+        span.classList.add("span");
+        span.textContent = text.age;
+        console.log(text.age);
+        section.appendChild(span);
+      });
+
     const button = document.createElement("input");
     button.value = "Refresh";
     button.type = "button";
