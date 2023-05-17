@@ -1,4 +1,4 @@
-@import url(./assets/css/normalize.css);
+@import url("/assets/css/normalize.css");
 @import url("https://fonts.googleapis.com/css2?family=Fraunces:wght@700;900&display=swap");
 body {
   display: flex;
@@ -39,6 +39,11 @@ body {
   &__author {
     font-family: "Fraunces", serif;
     font-size: 20px;
+    margin-bottom: -20px;
+  }
+  &__age{
+    font-family: "Fraunces", serif;
+    margin-top: 50px;
   }
   &__button {
     font-family: "Open Sans", sans-serif;
