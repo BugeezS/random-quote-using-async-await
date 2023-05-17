@@ -35,6 +35,7 @@ body {
     padding-bottom: 50px;
     padding-left: 20px;
     padding-right: 20px;
+    overflow: hidden;
   }
   &__author {
     font-family: "Fraunces", serif;
@@ -68,4 +69,13 @@ body {
     top: 5px;
     left: 5px;
   }
+}
+.loader {
+  display: none; /* Hide the loader by default */
+}
+.citation__content {
+  display: none; /* Hide the content by default */
+}
+.citation__error {
+  color: red;
 }
